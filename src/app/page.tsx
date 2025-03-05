@@ -17,12 +17,22 @@ export default function Home() {
 
     return (
         <div className={styles.page}>
-            <h1>乱数を生成</h1>
-            <button onClick={handleGenerateRandomNumber}>Generate</button>
-            <p>{random}</p>
-            <Link href={`/${random}`}>
-                <p>move</p>
-            </Link>
+            <h1>Generate random number</h1>
+            <div className={styles.buttons}>
+                <button
+                    onClick={handleGenerateRandomNumber}
+                    className={styles.border}
+                >
+                    Generate
+                </button>
+                <Link
+                    href={`/${random}`}
+                    className={`${styles.link} ${styles.border}`}
+                >
+                    <p>transition</p>
+                </Link>
+            </div>
+            <p className={styles.number}>{random}</p>
         </div>
     );
 }
