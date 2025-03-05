@@ -26,7 +26,7 @@ export default function Home() {
                     Generate
                 </button>
                 <Link
-                    href={`/${random}`}
+                    href={`/number/${random}`}
                     className={`${styles.link} ${styles.border}`}
                 >
                     <p>transition</p>
