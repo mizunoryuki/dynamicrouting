@@ -3,7 +3,7 @@ export const runtime = "edge";
 import Link from "next/link";
 import styles from "./page.module.css";
 
-export default async function Page({
+export default async function NumberPage({
     params,
 }: {
     params: Promise<{ slug: string }>;
