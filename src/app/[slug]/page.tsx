@@ -1,6 +1,6 @@
+export const runtime = "edge";
 import Link from "next/link";
 import styles from "./page.module.css";
-export const runtime = "edge";
 
 export default async function Page({
     params,
