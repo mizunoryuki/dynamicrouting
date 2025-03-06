@@ -6,4 +6,4 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## デプロイ先
 
--   [cloudflare pages](https://a47abae9.dynamicrouting.pages.dev/)
+-   [cloudflare pages](https://be23981b.dynamicrouting.pages.dev)
